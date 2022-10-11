@@ -1,0 +1,16 @@
+How to use this Inference System?
+1.Import Data From DataBase/File, Click "File-Open-From DataBase/File" in menu bar
+
+2.Save Data From DataBase/File, Click "File-Save As...-to DataBase/File" in menu bar
+
+3.Format of File:
+in your .txt file, write:
+ADDTRUTH number factor
+ADDINFER number_1 number_2 ... number_n deduction
+...
+e.g.
+ADDTRUTH 1 IS_ANIMAL
+ADDINFER 1 2 3 4
+
+4.Format of MySql:
+See it in my GitHub.
